@@ -1,0 +1,444 @@
+.degraded {
+    background: linear-gradient(to right, #004aad, #cb6ce6);
+}
+
+@font-face {
+    font-family: 'Chonburi';
+    src: url(/assets/fonts/Chonburi-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'tt hoves rgl';
+    src: url(/assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'tt hoves lgt';
+    src: url(/assets/fonts/TT\ Hoves\ Pro\ Trial\ Light.ttf);
+}
+
+@font-face {
+    font-family: 'tt hoves bd';
+    src: url(/assets/fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contain1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.contain5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contain6 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.contain7 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.contain8 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 2em;
+}
+
+.containbig6 {
+    display: flex;
+    justify-content: center;
+}
+
+.hr {
+    display: block;
+    color: #d9d9d9;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.link_contain5 {
+    font-family: tt hoves rgl, 'sans serif';
+    color: white;
+}
+
+.image_foule {
+    width: 700px;
+    height: 700px;
+}
+
+.card-img-top-redim2 {
+    width: 288px;
+    height: 398px;
+    border-radius: 7px;
+}
+
+.card-img-top-redim1 {
+    width: 288px;
+    height: 432px;
+    border-radius: 7px;
+}
+
+.pt2_contain5 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.h2_contain5 {
+    font-family: chonburi, 'sans serif';
+    color: #d9d9d9;
+
+}
+
+h3{
+    color: #d9d9d9;
+}
+
+table{
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #737373;
+    opacity:0.8;
+}
+
+
+th,td{
+    text-align:center;
+    width:150px;  
+}
+
+th{
+    border:solid 1px;
+    border-bottom: solid 1px;
+    border-radius: 10px;
+}
+
+.border_bottom{
+    border-bottom: solid 1px;
+}
+
+._contain5{
+    margin-top:2em;
+}
+
+.card {
+    background: transparent;
+    border: inherit;
+}
+
+.titre_page {
+    font-family: chonburi, 'sans serif';
+    color: #d9d9d9;
+    font-size: 8.5em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+}
+
+.titre_savoir {
+    font-family: tt hoves rgl, 'sans serif';
+    color: white;
+    margin-bottom: 1.3em;
+}
+
+.titre1 {
+    font-family: chonburi, 'sans serif';
+    font-size: 2em;
+    color: white;
+    margin-top: 2em;
+}
+
+.navbar {
+    background-color: #737373;
+    padding-left: 20px;
+}
+
+.log_titre1 {
+    display: inline-flex;
+
+}
+
+.log_titre2 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.savoir_plus {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+}
+
+.savoir_plus:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    font-family: tt hoves bd, 'sans serif';
+}
+
+.btn-card {
+    color: white;
+    background-color: #737373;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+}
+
+.btn-kaytranada:hover {
+    color: white;
+    background-color: #581010;
+}
+
+.card-img-top {
+    height: 500px;
+    border-radius: 7px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    background-color: #d9d9d9;
+    padding-bottom: 2em;
+    width: 100%;
+    bottom: 0;
+}
+.information{
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-decoration: none;
+    color: inherit;
+    border-right: solid grey 1px;
+}
+
+.info1 a{
+    padding-right: 10px;
+}
+
+.info2 a{
+    padding-right: 10px;
+}
+
+.info3 a{
+    padding-right: 10px;
+}
+
+.coordo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo_reseau{
+    padding-right: 10px;
+
+}
+
+h4{
+    padding-right: 10px;
+}
+
+.réseaux_site{
+    display:flex;
+    padding-top:10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #004aad;
+}
+
+.titre-formulaire {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+.containp1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 13px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.titre_kaytranada {
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #581010;
+}
+
+.scontainp1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgp {
+    border-right: solid grey 1px;
+    padding-right: 85px;
+}
+
+.img_kaytranada {
+    width: 450px;
+    height: 700px;
+}
+
+.titre_kaliuchis {
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #b14bbf;
+}
+
+.titre_tyla{
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #683830;
+}
+
+.titre_kanii{
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #535353;
+}
+
+.titre_kehlani{
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #6e7a74;
+}
+
+.titre_bekar{
+    text-align: center;
+    font-family: chonburi, 'sans serif';
+    margin-bottom: 2em;
+    color: #6e7979;
+}
+
+.img_kaliuchis {
+    height: 700px;
+}
+
+.spotify_control {
+    margin-right: 60px;
+    margin-left: 75px;
+    margin-bottom: 2em;
+}
+
+.paraph_art1 {
+    padding: 10px 10px 10px 30px;
+    font-style: tt hoves lgt, 'sans serif';
+}
+
+.réseaux_art {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding-bottom: 10px;
+    margin: 15px;
+}
+
+.btn-kali:hover {
+    background-color: #b14bbf;
+    color: white;
+}
+
+.btn-kanii:hover {
+    background-color:#535353;
+    color:white;
+}
+
+.btn-kehlani:hover {
+    background-color: #6e7a74;
+    color:white;
+}
+
+.btn-tyla:hover {
+    background-color:#683830;
+    color:white;
+}
+
+.btn-bekar:hover {
+    background-color:#6e7979;
+    color:white;
+}
+
+.imgp_kanii{
+    border-right: solid grey 1px;
+    padding-right: 80px;
+}
+
+.img_kanii{
+    width:auto;
+    height: auto;
+}
+
+
